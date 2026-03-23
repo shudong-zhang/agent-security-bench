@@ -1,6 +1,6 @@
-# Agent Security Benchmark Framework
+# Loki —— Agent 风险评估平台
 
-提示注入攻击全面评估框架。测试 AI Agent 在工具调用、文件读取、网页访问等场景下对提示注入攻击的防御能力。
+Loki（Agent Risk Evaluation System）是一个对 AI Agent 进行自动化安全测试的平台，覆盖提示注入、数据泄露、持久化驻留等攻击场景。本仓库是 Loki 的核心代码，基于 agent-security-bench 框架扩展。
 
 ---
 
