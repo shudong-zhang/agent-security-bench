@@ -20,7 +20,7 @@ logging.basicConfig(
 
 from core.runner     import BenchmarkRunner
 from sandbox.manager import SandboxManager, ContainerConfig
-from environments    import LocalFileEnvironment, MockWebEnvironment
+from environments    import LocalFileEnvironment
 from evaluators.evaluators import LLMJudgeEvaluator, ToolCallEvaluator, NetworkRequestEvaluator
 from reports.markdown_reporter import MarkdownReporter
 
